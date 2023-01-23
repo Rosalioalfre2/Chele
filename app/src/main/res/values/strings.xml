@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Chele</string>
+    <string name="efectivo">EFECTIVO</string>
+    <string name="tarjeta">TARJETA</string>
+    <string name="informe">INFORME</string>
+    <string name="gasolina">GASOLINA</string>
+    <string name="inicio">Bienvenido</string>
+</resources>
