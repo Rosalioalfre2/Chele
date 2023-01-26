@@ -8,10 +8,46 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="azul_oscuro">#2471A3</color>
-    <color name="oscuro_900">#212F3C</color>
-    <color name="rojo_oscuro">#943126</color>
-    <color name="verde_ocuro">#196F3D</color>
-    <color name="morado_oscuro">#633974 </color>
+<!--    <color name="azul_oscuro">#2471A3</color>-->
+<!--    <color name="oscuro_900">#212F3C</color>-->
+<!--    <color name="rojo_oscuro">#943126</color>-->
+<!--    <color name="verde_ocuro">#196F3D</color>-->
+<!--    <color name="morado_oscuro">#633974 </color>-->
+
+    <color name="oscuro">#1B1B1B</color>
+    <color name="gris_oscuro">#333232</color>
+    <color name="verde_oscuro_1">#003300</color>
+    <color name="verde_oscuro_2">#004d00</color>
+    <color name="verde_medio_1">#006600</color>
+    <color name="verde_medio_2">#009900</color>
+    <color name="verde_claro_1">#00cc00</color>
+    <color name="verde_claro_2">#00ff00</color>
+    <color name="verde_pastel_1">#99ff99</color>
+    <color name="verde_pastel_2">#ccffcc</color>
+    <color name="rojo_oscuro">#8B0000</color>
+    <color name="rojo_ladrillo">#B22222</color>
+    <color name="rojo_carmesi">#DC143C</color>
+    <color name="rojo_anaranjado">#FF4500</color>
+    <color name="rojo_cereza">#990000</color>
+    <color name="rojo_intenso">#CC0000</color>
+    <color name="rojo_naranja">#FF4136</color>
+    <color name="rojo_quemado">#FF851B</color>
+    <color name="azul_oscuro">#0E1F3C</color>
+    <color name="azul_marino">#1C3D5A</color>
+    <color name="azul_grisaceo">#3A5C78</color>
+    <color name="azul_cielo">#587A96</color>
+    <color name="azul_palido">#758FB3</color>
+    <color name="azul_claro">#93ADCF</color>
+    <color name="azul_cian">#B0CBEB</color>
+    <color name="azul_pastel">#DEEBF6</color>
+    <color name="azul_oscuro_1">#000033</color>
+    <color name="azul_oscuro_2">#00004d</color>
+    <color name="azul_medio_1">#000066</color>
+    <color name="azul_medio_2">#000099</color>
+    <color name="gris_muy_oscuro">#121212</color>
+    <color name="gris_oscuro_2">#262626</color>
+    <color name="gris_medio">#616161</color>
+    <color name="gris_claro">#BDBDBD</color>
+    <color name="gris_muy_claro">#E0E0E0</color>
 
 </resources>

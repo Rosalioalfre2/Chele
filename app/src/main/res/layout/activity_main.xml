@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -16,49 +15,50 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="@string/inicio"
+            android:background="@color/teal_700"
             android:gravity="center"
+            android:text="@string/inicio"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="25sp"
-            android:background="@color/teal_700"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="25dp"/>
+            android:layout_height="25dp" />
 
-<!--        Boton informe-->
+        <!--        Boton informe-->
         <LinearLayout
-            android:layout_marginVertical="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center">
+            android:layout_marginVertical="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
                 android:layout_gravity="center"
                 android:layout_marginHorizontal="50dp">
+
                 <Button
                     android:id="@+id/btnInforme"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:backgroundTint="@color/azul_oscuro"
                     android:text="@string/informe"
                     android:textColor="@color/white"
-                    android:textSize="22dp"
-                    android:backgroundTint="@color/azul_oscuro"/>
+                    android:textSize="22dp" />
             </androidx.cardview.widget.CardView>
         </LinearLayout>
 
-<!--        Boton tarjeta-->
+        <!--        Boton tarjeta-->
         <LinearLayout
-            android:layout_marginVertical="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center">
+            android:layout_marginVertical="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
@@ -80,49 +80,51 @@
 
         <!--        Boton efectivo-->
         <LinearLayout
-            android:layout_marginVertical="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center">
+            android:layout_marginVertical="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
                 android:layout_gravity="center"
                 android:layout_marginHorizontal="50dp">
+
                 <Button
                     android:id="@+id/btnEfectivo"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:backgroundTint="@color/verde_oscuro_1"
                     android:text="@string/efectivo"
                     android:textColor="@color/white"
-                    android:textSize="22dp"
-                    android:backgroundTint="@color/verde_ocuro"/>
+                    android:textSize="22dp" />
             </androidx.cardview.widget.CardView>
         </LinearLayout>
 
         <!--        Boton gasollina-->
         <LinearLayout
-            android:layout_marginVertical="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center">
+            android:layout_marginVertical="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
                 android:layout_gravity="center"
                 android:layout_marginHorizontal="50dp">
+
                 <Button
                     android:id="@+id/btnGasolina"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:backgroundTint="@color/gris_muy_oscuro"
                     android:text="@string/gasolina"
                     android:textColor="@color/white"
-                    android:textSize="22dp"
-                    android:backgroundTint="@color/morado_oscuro"/>
+                    android:textSize="22dp" />
             </androidx.cardview.widget.CardView>
         </LinearLayout>
 

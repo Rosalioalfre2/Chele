@@ -5,4 +5,7 @@
     <string name="informe">INFORME</string>
     <string name="gasolina">GASOLINA</string>
     <string name="inicio">Bienvenido</string>
+
+
+    <string name="agregar_registro">Agregar registro</string>
 </resources>
